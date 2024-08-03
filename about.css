@@ -1,0 +1,153 @@
+:root{
+    --softpink: #FFC0CB;
+    --pastelBlue: #AEC6CF;
+    --lavender: #E6E6FA;
+    --gold: #FFD700;
+    --offWhite: #FFF8E7;
+    --deepPurple: #9370DB;
+    --duskyRose: #DAA520;
+    --black : #000000;
+    --bg-envelope-color: #f5edd1;
+    --shadow-color: rgba(0, 0, 0, 0.2);
+    --envelope-tab: #ecdeb8;
+    --envelope-cover: #e6cfa7;
+}
+
+body{
+    background-color: var(--offWhite);
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+    color: var(--deepPurple);
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.navbar{
+    position: sticky;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    color: var(--softpink);
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Playfair display', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 2;
+   
+}
+
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a{
+    font-size: 1.1rem;
+    text-align: center;  
+    text-decoration: none;
+    color: var(--deepPurple);
+    font-family: 'Playfair display', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--lavender);
+    color: #fff;
+    font-family: 'Playfair display', sans-serif;
+    padding: 20px 0;
+    z-index: 1;
+}
+
+.navbar li{
+    margin: 0 20px;
+}
+
+.header p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--black);
+    z-index: 2;
+}
+
+.met-content p{
+    color: var(--black);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+}
+
+.about{
+    background-color: var(--offWhite);
+    padding: 40px 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.met-content{
+    text-align: justify;
+    line-height: 2.5;
+}
+
+.about-her{
+    text-align: justify;
+    line-height: 2.5;
+}
+
+.her-content p{
+    color: var(--black);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+}
+
+.container-1{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.about-her h2{
+    text-align: center;
+}
+
+.her-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.her-content{
+    text-align: justify;
+    line-height: 2.5;
+}
+
+.her-content h3{
+    text-align: center;
+    margin-top: 60px;
+    color: var(--deepPurple);
+}
+
+.section-title h1{
+    padding-top: 50px;
+}

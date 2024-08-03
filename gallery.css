@@ -1,0 +1,225 @@
+:root{
+    --softpink: #FFC0CB;
+    --pastelBlue: #AEC6CF;
+    --lavender: #E6E6FA;
+    --gold: #FFD700;
+    --offWhite: #FFF8E7;
+    --deepPurple: #9370DB;
+    --duskyRose: #DAA520;
+    --black : #000000;
+    --bg-envelope-color: #f5edd1;
+    --shadow-color: rgba(0, 0, 0, 0.2);
+    --envelope-tab: #ecdeb8;
+    --envelope-cover: #e6cfa7;
+}
+
+body{
+    background-color: var(--offWhite);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    position: sticky;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    color: var(--softpink);
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Playfair display', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 2;
+   
+}
+
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a{
+    font-size: 1.1rem;
+    text-align: center;  
+    text-decoration: none;
+    color: var(--deepPurple);
+    font-family: 'Playfair display', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--lavender);
+    color: #fff;
+    font-family: 'Playfair display', sans-serif;
+    padding: 20px 0;
+    z-index: 1;
+}
+
+.navbar li{
+    margin: 0 20px;
+}
+
+.header p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--black);
+    z-index: 2;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', sans-serif;
+    box-sizing: border-box;
+}
+
+.gallery{
+    background-color: var(--offWhite);
+    padding: 40px 0;
+}
+
+.container-gallery{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.gallery-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: var(--offWhite);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-title h1{
+    text-align: center;
+    justify-content: center;
+}
+.img-box{
+    width: 70px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 50px;
+    background: url(img\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: width 0.5s;
+    margin-top: 200px;
+}
+
+.img-box:nth-child(2){
+    background: url(img\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box:nth-child(3){
+    background: url(img\ 3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box:nth-child(4){
+    background: url(img\ 4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box:nth-child(5){
+    background: url(img\ 5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box:nth-child(6){
+    background: url(img\ 6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box:nth-child(7){
+    background: url(img\ 7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box:nth-child(8){
+    background: url(img\ 8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box:nth-child(9){
+    background: url(img\ 9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box:nth-child(10){
+    background: url(img\ 10.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box:nth-child(11){
+    background: url(img\ 11.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box:nth-child(12){
+    background: url(img\ 12.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box:nth-child(13){
+    background: url(img\ 13.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box:nth-child(14){
+    background: url(img\ 17.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box:nth-child(15){
+    background: url(img\ 16.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-box:hover{
+    width: 300px;
+    cursor: pointer; 
+}

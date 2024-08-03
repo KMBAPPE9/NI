@@ -1,0 +1,99 @@
+Navbar
+home
+about
+memories
+gallery
+music playlist
+letters
+Milestones
+Story book
+
+Color Palette
+Soft Pink (#FFC0CB)
+Pastel Blue (#AEC6CF)
+Lavender (#E6E6FA)
+Gold (#FFD700)
+Cream or Off-White (#FFF8E7)
+Deep Purple (#9370DB)
+Dusky Rose (#DAA520)
+
+Where to Use the Colors
+Backgrounds: Soft Pink, Pastel Blue, and Cream can be used for backgrounds of different sections or pages. 
+Lavender can be used for text and content containers.
+
+Text and Typography: Lavender or Cream can be used for text to ensure readability. 
+Deep Purple can be used for headings or accents.
+
+Buttons and Interactive Elements: Gold, Pastel Blue, or Soft Pink can be used for buttons to make them eye-catching and interactive.
+
+Decorative Elements: Deep Purple and Dusky Rose can be used for decorative elements, borders, 
+or illustrations that add a touch of romance and creativity.
+
+Icons: Gold can be used for icons or small decorative elements to give them a luxurious feel.
+
+Navigation: You can use Soft Pink, Lavender, 
+or Gold for navigation elements like buttons or links to make them easily accessible and visually appealing.
+
+Fonts:
+HEADING: Playfair Display
+BODY: Quicksand
+
+
+
+<!--Poems Cards-->
+    <div id="card-area">
+        <div class="wrapper">
+            <div class="box-area">
+<!--Poem 1-->
+                <div class="box">
+                    <img src="./Assets/poem bg-2.jpeg" alt="">
+                    <div class="overlay">
+                        <p>"For Every day I miss you,
+                            For every hour I need you,
+                            For every second I want you,
+                            Forever I love you.""
+                        </p>
+                    </div>
+                </div>
+
+                <!--Poem 2-->
+                <div class="box">
+                    <img src="./Assets/poem bg-1.jpeg" alt="">
+                    <div class="overlay">
+                        <p>"I wanna be everything.
+                            Wanna be the reason you light up.
+                            I wanna make you laugh,
+                            make you feel safe
+                            .I wanna do everything you do to me.
+                        </p>
+                    </div>
+                </div>
+
+                <!--Poem 3-->
+                <div class="box">
+                    <img src="./Assets/poem bg-4.jpeg" alt="">
+                    <div class="overlay">
+                        <p>"The most
+                            beautiful part is,
+                            I wasn't even looking
+                            when I found you.
+                        </p>
+                    </div>
+                </div>
+
+                <!--Poem 4-->
+                <div class="box">
+                    <img src="./Assets/poem bg-5.jpeg" alt="">
+                    <div class="overlay">
+                        <p>"When death
+                           takes my hand
+                           i will hold you with the other
+                           and promise to find you in every lifetime"
+                        </p>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
